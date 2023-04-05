@@ -41,7 +41,7 @@ export const Login: React.FC = () => {
             } catch (error) {
                 console.log(error);
             }
-        }, []); // you can also add your client id as dependency here
+        }, []); // Can also add client id as dependency here
 
         return <div ref={divRef} />;
     };
